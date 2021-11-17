@@ -7,11 +7,11 @@ int main() {
 
     for(i = 2; i < number; i++) {
         if(!(number % i)) {
-            printf("%d ce n\'est pas un nombre premier",number);
+            printf("ce n\'est pas un nombre premier");
             return 0;
         }
     }
 
-    printf("%d est un nombre premier");
+    printf("est un nombre premier");
     return 0;
 }

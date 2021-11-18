@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int rows, i, j, s;
+    int ligne, i, j, s;
 
-    printf("enter the number of rows of your triangle: ");
-    scanf("%d", &rows);
+    printf("enter the number of ligne of your triangle: ");
+    scanf("%d", &ligne);
 
-    for(i = 1; i <= rows; i++) {
-        for(s = 0; s < rows - i; s++) {
+    for(i = 1; i <= ligne; i++) {
+        for(s = 0; s < ligne - i; s++) {
             printf(" ");
         }
         
